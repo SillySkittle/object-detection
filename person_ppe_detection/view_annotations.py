@@ -3,10 +3,10 @@ import cv2
 import random
 
 
-images_path = 'datasets/augmented_data/cropped/images'
-labels_path = 'datasets/augmented_data/cropped/labels'
-output_path = 'datasets/augmented_data/cropped/annotated_images'
-classes_file = 'datasets/cropped_classes.txt'
+images_path = 'augmented_data/cropped/images'
+labels_path = 'augmented_data/cropped/labels'
+output_path = 'augmented_data/cropped/annotated_images'
+classes_file = 'cropped_classes.txt'
 
 # Load class names
 with open(classes_file, 'r') as f:

@@ -54,10 +54,10 @@ def check_images_and_labels(image_dir, label_dir, corrupt_image_dir, corrupt_lab
     return corrupt_images, corrupt_labels
 
 
-image_dir = 'datasets/augmented_data/cropped/images'
-label_dir = 'datasets/augmented_data/cropped/labels'  # Change to your label directory
-corrupt_image_dir = 'datasets/augmented_data/cropped/corrupt_images'  # Change to your corrupt images directory
-corrupt_label_dir = 'datasets/augmented_data/cropped/corrupt_labels'  # Change to your corrupt labels directory
+image_dir = 'augmented_data/cropped/images'
+label_dir = 'augmented_data/cropped/labels'  # Change to your label directory
+corrupt_image_dir = 'augmented_data/cropped/corrupt_images'  # Change to your corrupt images directory
+corrupt_label_dir = 'augmented_data/cropped/corrupt_labels'  # Change to your corrupt labels directory
 
 corrupt_images, corrupt_labels = check_images_and_labels(image_dir, label_dir, corrupt_image_dir, corrupt_label_dir)
 

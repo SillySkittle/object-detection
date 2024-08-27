@@ -98,6 +98,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-# python datasets/imbalance_correction.py datasets/yolo_labels datasets/classes.txt
-# python datasets/imbalance_correction.py datasets/augmented_data/all_labels datasets/classes.txt
-# python datasets/imbalance_correction.py datasets/augmented_data/cropped/labels datasets/cropped_classes.txt
+# python imbalance_correction.py yolo_labels classes.txt
+# python imbalance_correction.py augmented_data/all_labels classes.txt
+# python imbalance_correction.py augmented_data/cropped/labels cropped_classes.txt

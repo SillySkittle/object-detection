@@ -107,4 +107,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# python datasets/crop_images.py datasets/augmented_data/images datasets/augmented_data/all_labels datasets/augmented_data/cropped/images datasets/augmented_data/cropped/labels
+# python crop_images.py augmented_data/images augmented_data/all_labels augmented_data/cropped/images augmented_data/cropped/labels

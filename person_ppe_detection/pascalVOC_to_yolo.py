@@ -61,4 +61,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# python datasets/pascalVOC_to_yolo.py datasets datasets/yolo_labels
+# python pascalVOC_to_yolo.py datasets yolo_labels

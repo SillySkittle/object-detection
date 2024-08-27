@@ -49,4 +49,4 @@ if __name__ == "__main__":
     classes = load_classes(args.classes_file)
     main(args.label_dir, args.valid_class_name, classes, args.output_dir)
 
-# python datasets/label_correction.py datasets/augmented_data/all_labels person datasets/classes.txt datasets/augmented_data/labels
+# python label_correction.py augmented_data/all_labels person classes.txt augmented_data/labels

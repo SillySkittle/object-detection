@@ -36,5 +36,5 @@ if __name__ == "__main__":
 
     split_dataset(args.images_dir, args.annotations_dir, args.output_dir, args.test_size)
 
-# python datasets/split_dataset.py datasets/augmented_data/images datasets/augmented_data/labels datasets/person_dataset
-# python datasets/split_dataset.py datasets/augmented_data/cropped/aug_crop_data/images datasets/augmented_data/cropped/aug_crop_data/labels datasets/ppe_dataset
+# python split_dataset.py augmented_data/images augmented_data/labels person_dataset
+# python split_dataset.py augmented_data/cropped/aug_crop_data/images augmented_data/cropped/aug_crop_data/labels ppe_dataset

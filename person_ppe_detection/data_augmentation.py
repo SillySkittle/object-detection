@@ -120,6 +120,6 @@ if __name__ == "__main__":
     augment_data(args.labels_dir, args.images_dir, args.classes_file, args.output_labels_dir, args.output_images_dir,
                  args.ratio_threshold)
 
-# python datasets/data_augmentation.py datasets/yolo_labels datasets/images datasets/classes.txt datasets/augmented_data/all_labels datasets/augmented_data/images
-# python datasets/data_augmentation.py datasets/augmented_data/cropped/labels datasets/augmented_data/cropped/images datasets/classes.txt datasets/augmented_data/cropped/aug_crop_data/labels datasets/augmented_data/cropped/aug_crop_data/images
+# python data_augmentation.py yolo_labels images classes.txt augmented_data/all_labels augmented_data/images
+# python data_augmentation.py augmented_data/cropped/labels augmented_data/cropped/images classes.txt augmented_data/cropped/aug_crop_data/labels augmented_data/cropped/aug_crop_data/images
 
